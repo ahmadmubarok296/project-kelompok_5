@@ -14,6 +14,13 @@ if (tombolTema) {
 }   
 
 // ===== BAGIAN MAHASISWA 2 (PROFIl) =====
+const jelajahi = document.getElementById("jelajahi-kegiatan");
+
+if (jelajahi) {
+  jelajahi.addEventListener("click", function () {
+    alert("Yuk, intip berbagai kegiatan seru kami!");
+  });
+}
 
 // ===== BAGIAN MAHASISWA 3 (KEGIATAN) =====
 
