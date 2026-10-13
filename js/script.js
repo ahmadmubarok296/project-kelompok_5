@@ -16,5 +16,12 @@ if (tombolTema) {
 // ===== BAGIAN MAHASISWA 2 (PROFIl) =====
 
 // ===== BAGIAN MAHASISWA 3 (KEGIATAN) =====
+const formulir = document.getElementById("formulir");
+
+if (formulir) {
+  formulir.addEventListener("click", function () {
+    alert("Tertarik bergabung? Cepat daftarkan dirimu!");
+  });
+}
 
 // ===== BAGIAN MAHASISWA 4: (PENDAFTARAN) =====
