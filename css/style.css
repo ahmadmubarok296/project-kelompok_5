@@ -132,3 +132,51 @@ body.gelap #pesan-pendaftaran {
 /* ===== BAGIAN MAHASISWA 3 (PROFIL DAN KEGIATAN) ===== */
 
 /* ===== BAGIAN MAHASISWA 4 (PENDAFTARAN) ===== */
+.form-pendaftaran {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-pendaftaran label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-pendaftaran input,
+.form-pendaftaran select,
+.form-pendaftaran textarea {
+  width: 100%;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font: inherit;
+}
+
+.form-pendaftaran textarea {
+  resize: vertical;
+}
+
+.form-pendaftaran button {
+  margin-top: 18px;
+}
+
+.form-pendaftaran .tombol-reset {
+  background: #64748b;
+}
+
+#pesan-pendaftaran {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .form-pendaftaran {
+    padding: 18px;
+  }
+}
