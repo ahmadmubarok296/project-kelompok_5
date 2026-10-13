@@ -18,3 +18,18 @@ if (tombolTema) {
 // ===== BAGIAN MAHASISWA 3 (KEGIATAN) =====
 
 // ===== BAGIAN MAHASISWA 4: (PENDAFTARAN) =====
+const formPendaftaran = document.getElementById("form-pendaftaran");
+
+if (formPendaftaran) {
+  formPendaftaran.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const nama = document.getElementById("nama").value;
+    const pilihanUKM = document.getElementById("pilihan-ukm").value;
+    const pesan = document.getElementById("pesan-pendaftaran");
+
+    pesan.textContent = "Terima kasih, " + nama + "! Pilihan minatmu adalah " + pilihanUKM + ". Formulir simulasi berhasil diproses.";
+
+    formPendaftaran.reset();
+  });
+}
